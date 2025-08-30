@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import yahooFinance from "yahoo-finance2";
-import holdingsData from "./models/portfolio-holdings.json" assert { type: "json" };
+import holdingsData from "./models/portfolio-holdings.json";
 import { fileURLToPath } from "url";
 // import { dirname } from "path";
 import rateLimit from "express-rate-limit";
