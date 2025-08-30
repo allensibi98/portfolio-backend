@@ -1,16 +1,19 @@
 import express from "express";
 import cors from "cors";
+import fs from "fs";
+import path from "path";
 import yahooFinance from "yahoo-finance2";
-const holdingsData = await import("./models/portfolio-holdings.json", {
-  with: { type: "json" }
-});
 import { fileURLToPath } from "url";
-// import { dirname } from "path";
+import { dirname } from "path";
 import rateLimit from "express-rate-limit";
 import { WebSocketServer } from "ws";
 
 const __filename = fileURLToPath(import.meta.url);
-// const __dirname = dirname(__filename);
+const __dirname = dirname(__filename);
+
+const holdingsData = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "models", "portfolio-holdings.json"), "utf-8")
+);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
