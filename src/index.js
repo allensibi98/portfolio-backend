@@ -1,7 +1,9 @@
 import express from "express";
 import cors from "cors";
 import yahooFinance from "yahoo-finance2";
-import holdingsData from "./models/portfolio-holdings.json";
+const holdingsData = await import("./models/portfolio-holdings.json", {
+  with: { type: "json" }
+});
 import { fileURLToPath } from "url";
 // import { dirname } from "path";
 import rateLimit from "express-rate-limit";
