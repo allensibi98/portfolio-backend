@@ -1,0 +1,187 @@
+[
+  {
+    "sector": "Technology",
+    "holdings": [
+      {
+        "symbol": "TCS.NS",
+        "name": "Tata Consultancy Services Ltd.",
+        "purchasePrice": 3200,
+        "quantity": 10,
+        "sector": "Technology",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "INFY.NS",
+        "name": "Infosys Ltd.",
+        "purchasePrice": 1500,
+        "quantity": 20,
+        "sector": "Technology",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "WIPRO.NS",
+        "name": "Wipro Ltd.",
+        "purchasePrice": 450,
+        "quantity": 25,
+        "sector": "Technology",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "TECHM.NS",
+        "name": "Tech Mahindra Ltd.",
+        "purchasePrice": 1150,
+        "quantity": 15,
+        "sector": "Technology",
+        "exchange": "NSE"
+      }
+    ]
+  },
+  {
+    "sector": "Energy",
+    "holdings": [
+      {
+        "symbol": "RELIANCE.NS",
+        "name": "Reliance Industries Ltd.",
+        "purchasePrice": 2400,
+        "quantity": 5,
+        "sector": "Energy",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "ONGC.NS",
+        "name": "Oil & Natural Gas Corporation Ltd.",
+        "purchasePrice": 180,
+        "quantity": 50,
+        "sector": "Energy",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "NTPC.NS",
+        "name": "NTPC Ltd.",
+        "purchasePrice": 200,
+        "quantity": 40,
+        "sector": "Energy",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "POWERGRID.NS",
+        "name": "Power Grid Corporation of India Ltd.",
+        "purchasePrice": 250,
+        "quantity": 30,
+        "sector": "Energy",
+        "exchange": "NSE"
+      }
+    ]
+  },
+  {
+    "sector": "Financials",
+    "holdings": [
+      {
+        "symbol": "HDFCBANK.NS",
+        "name": "HDFC Bank Ltd.",
+        "purchasePrice": 1450,
+        "quantity": 15,
+        "sector": "Financials",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank Ltd.",
+        "purchasePrice": 920,
+        "quantity": 20,
+        "sector": "Financials",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "KOTAKBANK.NS",
+        "name": "Kotak Mahindra Bank Ltd.",
+        "purchasePrice": 1850,
+        "quantity": 10,
+        "sector": "Financials",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "name": "State Bank of India",
+        "purchasePrice": 650,
+        "quantity": 25,
+        "sector": "Financials",
+        "exchange": "NSE"
+      }
+    ]
+  },
+  {
+    "sector": "Telecommunication Services",
+    "holdings": [
+      {
+        "symbol": "BHARTIARTL.NS",
+        "name": "Bharti Airtel Ltd.",
+        "purchasePrice": 750,
+        "quantity": 8,
+        "sector": "Telecommunication Services",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "IDEA.NS",
+        "name": "Vodafone Idea Ltd.",
+        "purchasePrice": 15,
+        "quantity": 200,
+        "sector": "Telecommunication Services",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "TATACOMM.NS",
+        "name": "Tata Communications Ltd.",
+        "purchasePrice": 1400,
+        "quantity": 6,
+        "sector": "Telecommunication Services",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "HFCL.NS",
+        "name": "HFCL Ltd.",
+        "purchasePrice": 80,
+        "quantity": 100,
+        "sector": "Telecommunication Services",
+        "exchange": "NSE"
+      }
+    ]
+  },
+  {
+    "sector": "Industrials",
+    "holdings": [
+      {
+        "symbol": "LT.NS",
+        "name": "Larsen & Toubro Ltd.",
+        "purchasePrice": 2200,
+        "quantity": 7,
+        "sector": "Industrials",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "BHEL.NS",
+        "name": "Bharat Heavy Electricals Ltd.",
+        "purchasePrice": 120,
+        "quantity": 60,
+        "sector": "Industrials",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "SIEMENS.NS",
+        "name": "Siemens Ltd.",
+        "purchasePrice": 3600,
+        "quantity": 5,
+        "sector": "Industrials",
+        "exchange": "NSE"
+      },
+      {
+        "symbol": "ABB.NS",
+        "name": "ABB India Ltd.",
+        "purchasePrice": 4500,
+        "quantity": 4,
+        "sector": "Industrials",
+        "exchange": "NSE"
+      }
+    ]
+  }
+]
